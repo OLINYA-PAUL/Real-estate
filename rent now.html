@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real estate</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+            <nav class="main-nav">
+                <a href="index.html"><h3>Real estate</h3></a>
+                <main class=" main-flex" id="menuDropDown">
+                    <img src="IMAGES/menu.png" class="menu-bar"  onclick="menuDropDownToggle()" id="menu-bar">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="property.html">property</a></li>
+                        <li class="rent"><a href="rent now.html">rent now</a></li>
+                    </ul>
+                    <div class="social-icons">
+                          <div><a href=""><img src="images/facebook.png"></a></div>
+                          <div><a href=""><img src="images/telegram.png"></a></div>
+                          <div><a href=""><img src="images/istagram.png"></a></div>
+                    </div>
+                </main>
+                <img src="images/menu.png"  class="menu-bar" onclick="menuBar()">
+            </nav>
+
+           
+            <div class="container-inner-container">
+             <div class="img-container">
+              <h3>Rent now</h3>
+              <p> <img src="images/star yellow.png" alt="">
+                <img src="images/star yellow.png" alt="">
+                <img src="images/star yellow.png" alt="">
+                <img src="images/star blue.png" alt="">
+                <img src="images/star blue.png" alt=""> 2000k home/ Rent a home for your living.</p>
+             </div>
+                   <div class="grid-flex">
+                     <div class="row-1">
+                     <div class="">
+                        <div class="flex-1">
+                          <div class="space"><img src="images/23.jpg" alt=""></div>
+                          <div><img src="images/22.jpg" alt=""></div>
+                        </div>
+                        <div class="flex-1">
+                          <div class="space"><img src="images/1.jpg" alt=""></div>
+                          <div><img src="images/10.jpg" alt=""></div>
+                        </div>
+                        <h3 class="h3">200k/day</h3>
+                     </div>
+
+
+                     </div>
+                     <div class="row-2">
+                      <img src="images/19.jpg" alt="">
+                      <h1>Rent now</h1>
+                      <p>all you need is availabe just rent now---------- $2000K/year.</p>   <hr  class="hr-line">
+                      <div class="ly-flex">
+                        <div><img src="images/rocket.png" alt=""></div>
+                          <div>
+                            <h2>All homes</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum reiciendis sunt voluptatibus magni inventore !</p>
+                          </div>
+                      </div>
+                      <div class="ly-flex">
+                        <div><img src="images/home.png" alt=""></div>
+                          <div>
+                            <h2>Enhance the beauty of your home</h2>
+                            <p>Lorem ipsum dolor, sit amet  reiciendis sunt voluptatibus magni inventore !</p>
+                          </div>
+                      </div>
+                      <div class="ly-flex">
+                        <div><img src="images/security.png" alt=""></div>
+                          <div>
+                            <h2>Ensure location security</h2>
+                            <p>consectetur adipisicing elit. Dolorum reiciendis sunt voluptatibus magni inventore !</p>
+                          </div>
+                      </div>
+                      <div class="ly-flex">
+                        <div><img src="images/brush.png" alt=""></div>
+                          <div>
+                            <h2>Deploy better exprience in all variation</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum !</p>
+                          </div>
+                      </div>
+                      <hr  class="hr-line">
+                     </div>
+                    
+                   </div>
+                  <div class="text-info">
+                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe debitis perferendis iure nisi hic labore ipsum! Aperiam nesciunt consequuntur fugit. Ad amet quas nisi, perferendis iusto sunt non quae aliquam.
+                       Ipsam doloremque animi eveniet omnis odio obcaecati, distinctio dolore, quas, voluptates minima quibusdam. Aliquid quos consequatur, quidem hic ut vel pariatur aperiam rem alias repellat. Aliquam, eos itaque! Ex, illum!</p>
+                  </div>
+                  <hr  class="hr-line">
+                  <div class="location">
+                     <div class="location-side">
+                       <h2>Location of our real estate</h2>
+                      <img src="images/map.jpg" alt="">
+                       <p>All you need is a home and a happy family.</p>
+                     </div>
+                     <hr  class="hr-line">
+                     <div class="like">
+                       <div><img src="images/star yellow.png" alt="">
+                        <img src="images/star yellow.png" alt="">
+                        <img src="images/star blue.png" alt="">
+                        <img src="images/star blue.png" alt=""></div>
+                        <p>Rate us</p>
+                     </div>
+                   
+                  </div>
+                </div>
+          
+                <footer>
+                  <div class="footer-flex">
+                      <div class="flex-footer">
+                        <div>
+                       <a href=""><img src="images/facebook.png" alt="">
+                        </div>
+                        <p>facebook</p>
+                      </a>
+                      </div>
+                      <div class="flex-footer">
+                          <div>
+                          <a href="">  <img src="images/linkin.png" alt="">
+                          </div>
+                          <p>Linkedin</p></a>
+                        </div>
+                        <div class="flex-footer">
+                          <div>
+                           <a href="">  <img src="images/istagram.png" alt="">
+                           </div>
+                           <p>istagram</p></a>
+                        </div>
+                  </div>
+              </footer>
+</div>
+
+
+
+ 
+  <script>
+      let menuDropDown = document.getElementById('menuDropDown')
+function menuBar(){
+    menuDropDown.style.maxHeight = '1200px'
+}
+function menuDropDownToggle(){
+    menuDropDown.style.maxHeight = '0px'
+}
+  </script>  
+</body>
+</html>
+
+
